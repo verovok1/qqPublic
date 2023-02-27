@@ -6,6 +6,28 @@
   </head>
   <body>
     <style>
+      #object1 {
+            width: 500px;
+            height: 300px;
+            background-color: green;
+            object-fit: none;
+            object-position: left top;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            grid-auto-rows: minmax(100px, auto);
+      }
+      #object2 {
+            width: 500px;
+            height: 300px;
+            background-color: green;
+            object-fit: none;
+            object-position:  left top;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            grid-auto-rows: minmax(100px, auto);
+      }
         .button {
               border: none;
               color: white;
@@ -21,5 +43,15 @@
             .button {background-color: #000;}
             </style>
  <button class="button" onclick="history.go(-1)">back</button>
+      <img id="object1" 
+      src="https://kor.ill.in.ua/m/610x385/2733697.jpg"
+       alt="patron"
+        style="margin:4px 2px" 
+       >
+       <img  id="object2" 
+      src="https://cdn.discordapp.com/attachments/727860110919073820/1075738310405804052/1499781579.jpg"
+       alt="pivo svin"
+        style="margin:4px 2px" 
+       >
   </body>
 </html>
