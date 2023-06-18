@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Harry Potter the prizoner of azkaban",
+      "poster": "https://images.ctfassets.net/usf1vwtuqyxm/24YWmI4UcyoMwj7wdKrEcL/374de1941927db12bd844fb197eab11f/English_Harry_Potter_3_Epub_9781781100233.jpg?w=914&q=70&fm=jpg",
+      "capacity": 10,
+      "price": 25,
+      "in stock": true
+    },
+    {
+      "title": "The Hobbit",
+      "poster": "https://m.media-amazon.com/images/I/A1E+USP9f8L.jpg",
+      "capacity": 4,
+      "price": 23,
+      "in stock": false
+    }
+  ]
+  

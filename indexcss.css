@@ -81,3 +81,78 @@ ul li a:hover{
   background:#d34d43;
 
 }
+
+
+#HarryPotter-3  {
+  width: 200px;
+  height: 300px;
+  background-color: green;
+  object-position: left top;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+
+#TheHobbit {
+  width: 200px;
+  height: 300px;
+  background-color: green;
+  object-position:  left top;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+/* название книг*/
+
+.HarryPotter3{
+  font-size: 15px;
+  display:flex;
+  color: white;
+  position: absolute;
+  top: 360px;
+  left:30px;
+}
+
+.TheHobbit{
+  font-size: 15px;
+  display:flex;
+  color: white;
+  position: absolute;
+  top: 360px;
+  left:230px;
+}
+
+
+.button1 {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button1 {background-color: #000;}
+
+  .button2 {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button2 {background-color: #000;}
+
+

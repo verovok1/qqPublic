@@ -1,6 +1,6 @@
-function openHome() {
-  alert("home");
-}
-function openAbout() {
-  alert("u`ve opened about");
-}
+fetch("book.json")
+    .then(response => response.json())
+    .then(data => {
+        console.log(data)
+    })
+
